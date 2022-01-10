@@ -12,7 +12,6 @@ import {TodosError} from "../components/Skeletons/TodosError/TodosError";
 import {TodosLoading} from "../components/Skeletons/TodosLoading/TodosLoading";
 import {EmptyTodos} from "../components/Skeletons/EmptyTodos/EmptyTodos";
 
-// import './App.css';
 
 function AppUI() {
 	const {
@@ -26,7 +25,7 @@ function AppUI() {
 	} = React.useContext(TodoContext);
 	return(
 		<React.Fragment>
-			<Title title="Daniela's To-Do"/>
+			<Title title="Personal's To-Do"/>
 			<TodoCounter/>
 			<TodoSearch/>
 			<TodoList >

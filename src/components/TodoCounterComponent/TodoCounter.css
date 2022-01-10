@@ -4,4 +4,10 @@
     text-align: center;
     color: #EFEDF0;
     font-weight: 300;
+    margin-top: 2rem;
+}
+.TodoCounter span {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #9967ba;
 }
