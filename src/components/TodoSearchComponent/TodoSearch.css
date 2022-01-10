@@ -1,0 +1,28 @@
+.TodoSearch__content {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 2.5rem;
+    border-radius: 10px;
+    background: #EBE9E9;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+.TodoSearch__content input {
+    width: 85%;
+    background: #EBE9E9;
+    color: black;
+    border: none;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 0.875rem;
+    outline: none;
+}
+.TodoSearch__content input::placeholder {
+    color: black;
+}
+.TodoSearch__content img {
+    width: 21px;
+    height: 21px;
+    margin: auto 0;
+}

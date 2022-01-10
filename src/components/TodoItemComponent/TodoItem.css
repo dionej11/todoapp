@@ -1,0 +1,28 @@
+.TodoItem {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    background: none;
+    border: thin solid #DFC6F3;
+    border-radius: 10px;
+    margin-bottom: 1.688rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.TodoItem p {
+    width: 75%;
+    border-left: thin solid #DFC6F3;
+    border-right: thin solid #DFC6F3;
+    padding-left: 0.5rem;
+}
+.TodoItem svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.done {
+    text-decoration: line-through;
+}

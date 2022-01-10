@@ -1,0 +1,57 @@
+.TodoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    background-color: #202528;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.TodoForm label {
+    font-family: 'Rock 3D', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #9968BF;
+    font-weight: 600;
+}
+.TodoForm textarea {
+    width: 85%;
+    resize: none;
+    height: 40%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Oxygen Mono', monospace;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    outline-color: #9968BF;
+}
+.TodoForm .TodoForm--buttons {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TodoForm .TodoForm--buttons button {
+    width: 45%;
+    height: 2rem;
+    border-radius: 10px;
+    font-family: 'Oxygen Mono', monospace;
+    cursor: pointer;
+    font-weight: 600;
+    color: #202020;
+}
+.TodoForm .TodoForm--buttons button:nth-child(1) {
+    background-color:#F24E4E;
+    border: none;
+}
+.TodoForm .TodoForm--buttons button:nth-child(2) {
+    background-color:#5D5FEF;
+    border: none;
+}
+.TodoForm .TodoForm--buttons button:nth-child(1):hover,
+.TodoForm .TodoForm--buttons button:nth-child(2):hover {
+    box-shadow: 1px 1px 5px #DFC6F3;
+}
